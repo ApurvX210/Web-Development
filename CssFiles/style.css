@@ -1,0 +1,35 @@
+p,a{
+    color: blueviolet;
+}
+/* p> a{
+    color: rgb(226, 113, 43);
+} */
+li{
+    list-style: square;
+}
+.sp{
+    color: rgb(233, 158, 37);
+}
+span.sp{
+    color: rgb(233, 94, 39);
+}
+li>em{
+    color: blueviolet;
+}
+h1+p{
+    color: brown;
+    font-size: 200%;
+}
+a{
+    color: rgb(223, 223, 61);
+}
+a:hover{
+    color: rgb(227, 21, 48);
+    text-decoration: none;
+}
+#i{
+    color: brown;
+}
+li[class]{
+    color: aquamarine;
+}
