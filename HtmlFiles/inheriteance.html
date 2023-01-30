@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cascading Specificity Inhertence</title>
+    <style>
+        body{
+            color: brown;
+        }
+        .a a{
+            color: inherit;
+        }
+        .b{
+            color: initial;
+        }
+        p{
+            color: aqua;
+        }
+        .ap{
+            color: rgb(223, 136, 30);
+        }
+        #apu{
+            color: blue;
+        }
+        p{
+            color: brown !important;
+        }
+    </style>
+</head>
+<body>
+    <ul>
+        <li>Default<a href="#">Deafault Value</a></li>
+        <li class="a">Inherit<a href="#">Inherit Value</a></li>
+        <li class="b">Initial<a href="#">Initial Value</a></li>
+        <li class="c">Unset<a href="#">Unset Value</a></li>
+    </ul>
+    <p class="ap" id="apu">This is paragraph</p>
+</body>
+</html>
