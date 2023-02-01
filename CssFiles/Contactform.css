@@ -1,0 +1,49 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    margin-top: 6%;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#set1{
+    text-align: left;
+    box-shadow: inset 0px 0px 10px rgba(0,0,0,0.5);
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+p,i,#set1 h1{
+    margin: 20px;
+}
+input,textarea{
+    padding: 10px;
+    border-radius: 5px;
+}
+textarea{
+    width: 86%;
+}
+input::placeholder,textarea::placeholder {
+    font-weight: bold;
+}
+input[type="submit"]{
+    width: 22%;
+    background-color: #2196F3;
+    color: white;
+    font-weight: bold;
+}
+#set2{
+    text-align: center;
+    background-color: #3F87FA;
+    color: white;
+    height: 80%;
+    padding-top: 6%;
+    border-radius: 5px;
+    width: 25%;
+}
+img {
+  vertical-align: middle;
+}
+
+  
