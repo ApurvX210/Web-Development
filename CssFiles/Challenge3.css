@@ -1,0 +1,38 @@
+.box{
+    background-color: rgb(56, 155, 216);
+    border: 2px solid rgb(35, 147, 216);
+    margin: 40px;
+    padding: 20px;
+}
+#img1{
+    float: left;
+    width: 90px;
+    height: 80px;
+    aspect-ratio: auto;
+    margin-right: 10px;
+    
+}
+#img2{
+    float: right;
+    width: 90px;
+    height: 80px;
+    aspect-ratio: auto;
+    margin-left: 10px;
+}
+#img3{
+    float: left;
+    width: 90px;
+    height: 80px;
+    aspect-ratio: auto;
+    margin-right: 10px;
+}
+#img4{
+    float: right;
+    width: 90px;
+    height: 80px;
+    aspect-ratio: auto;
+    margin-left: 10px;
+}
+p{
+    color: white;
+}
