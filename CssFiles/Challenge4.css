@@ -1,0 +1,26 @@
+* {
+    margin: 0px;
+}
+.head{
+    color: white;
+    text-align: center;
+    background-color: rgb(64, 136, 192);
+}
+h1{
+    color: white;
+    text-align: center;
+    background-color: rgb(64, 136, 192);
+    padding: 3%;
+}
+nav{
+    position: sticky;
+    top: 0px;
+    background-color: blue;
+    text-align: center;
+    padding: 1%;
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    margin: 1%;
+}
