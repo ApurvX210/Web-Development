@@ -1,0 +1,31 @@
+*{
+    margin: 0px;
+}
+.container{
+    width: inherit;
+    height: 100vh;
+    display: flex;
+}
+.box1{
+    width: 30%;
+    height: inherit;
+    background-color: #DBE7D7;
+}
+.box2{
+    width: 70%;
+    height: inherit;
+}
+header{
+    background-color: #A6CB50;
+    height: 20%;
+}
+footer{
+    background-color: #A6CB50;
+    height: 20%;
+}
+article{
+    height: 60%;
+}
+h2{
+    padding: 1%;
+}
