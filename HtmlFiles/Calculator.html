@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="../CssFiles/CalculatorCss.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div class="box">
+            <input type="text" id="result">
+            <button class="s" id="s1" onclick="clr()">C</button>
+            <button class="s" id="s2" onclick="dis('1')">1</button>
+            <button class="s" id="s3" onclick="dis('2')">2</button>
+            <button class="s" id="s4" onclick="dis('3')">3</button>
+            <button class="s" id="s14" onclick="dis('/')">/</button>
+            <button class="s" id="s5" onclick="dis('4')">4</button>
+            <button class="s" id="s6" onclick="dis('5')">5</button>
+            <button class="s" id="s7" onclick="dis('6')">6</button>
+            <button class="s" id="s15" onclick="dis('*')">*</button>
+            <button class="s" id="s8" onclick="dis('7')">7</button>
+            <button class="s" id="s9" onclick="dis('8')">8</button>
+            <button class="s" id="s10" onclick="dis('9')">9</button>
+            <button class="s" id="s16" onclick="dis('-')">-</button>
+            <button class="s" id="s11" onclick="dis('0')">0</button>
+            <button class="s" id="s12" onclick="dis('.')">.</button>
+            <button class="s" id="s13" onclick="solve()">=</button>
+            <button class="s" id="s17" onclick="dis('+')">+</button>
+        </div>
+    </div>
+    <script src="../JavaScript/CalculatorJs.js"></script>
+</body>
+</html>
